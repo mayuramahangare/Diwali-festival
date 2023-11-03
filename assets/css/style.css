@@ -105,12 +105,12 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     /*--background-color: rgba(241, 109, 107, .7);*/
-    font-size: 120%;
+    font-size: 130%;
     position: absolute;
     bottom: 30px;
-    width: 200%;
+    width: 80%;
     min-height: 200px;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 10px;
 }
 
@@ -165,10 +165,29 @@ main {
 
 /* Meetup Times section */
 #times {
-    background: url("../images/london.webp") no-repeat center/cover;
+    background: url('../images/hand.webp') no-repeat center/cover;
+    
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
+}
+
+#times div {
+    color: #130202;
+    background-color: rgba(201, 17, 85, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+    /* Override the heading colour set in general styles */
+    color: #260505;
 }
 
 /* Footer */
