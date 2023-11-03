@@ -193,6 +193,12 @@ main {
     color: #260505;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
