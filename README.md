@@ -4,8 +4,6 @@ Observed by more than a billion people across faiths, this five-day festival of 
 
  Diwali-in-London is a site that hopes to help keep up the cosmopolitan culture of the city of London. It aims to bring together people from different cultures together irrespective of their caste, creed or religion and celebrate the win of good over evil. The site will be targeted toward fun goers who intend to participate in different activites and showcase their tradition through various performances and fashion attires. Interested members can participate by registering themselves to this event via the Diwali In London website.
 
-![Responsice Mockup](media/lotus.jpg)
-
 ## Features
 
 This websute basically contains of three pages viz- Home, Gallery and SignUp. The Home page provides an overview of the website intent. The Gallery page showcases the images of the various activities that are included in the proposed event. The SignUp page  intennds to enable the interested members of the public to enroll to the even and participate in the different activities part of this event.
